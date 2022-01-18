@@ -1,0 +1,98 @@
+/* Variables */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20vh;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #efecff;
+  border: 3px solid #0e8286;
+}
+
+.container .title h2 {
+  font-size: 50px;
+  font-style: italic;
+  color: #000;
+}
+
+.container .title .underline {
+  background-color: #0e8286;
+  height: 6px;
+  border-radius: 3px;
+  width: 50%;
+  margin: 10px 25%;
+}
+
+.container .review {
+  text-align: center;
+}
+
+.container .review h4#author {
+  font-size: 20px;
+}
+
+.container .review p#job {
+  font-size: 18px;
+  color: #0e8286;
+  margin: 10px 0;
+}
+
+.container .review .img-container {
+  background-color: #0e8286;
+  border-radius: 50%;
+  margin: 10px 0 20px 0;
+}
+
+.container .review .img-container img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  -webkit-transform: translate(-8px, 8px);
+          transform: translate(-8px, 8px);
+}
+
+.container .review .buttons-container button {
+  border: none;
+  font-size: 25px;
+  color: #0e8286;
+  font-weight: 900;
+  margin: 10px 10px 0 10px;
+}
+
+.container .review .buttons-container button:hover {
+  padding: 0 3px;
+  border-radius: 3px;
+  background-color: #0e8286;
+  color: #efecff;
+}
+
+.container .review .random-btn {
+  border: none;
+  font-size: 16px;
+  background-color: #0e8286;
+  font-weight: 500;
+  margin: 5px 10px 0 10px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  color: #efecff;
+}
+/*# sourceMappingURL=style.css.map */
